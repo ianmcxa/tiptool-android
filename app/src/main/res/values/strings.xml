@@ -8,4 +8,6 @@
 
     <string name="tip_format">Tip: %1$s</string>
     <string name="total_format">Total: %1$s</string>
+
+    <string name="tip_factor">Tip Factor</string>
 </resources>
