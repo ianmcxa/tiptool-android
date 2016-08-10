@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
             Double tipNumber = ((double) Math.round(billNumber * tipFactor * 100)) / 100;
             Double totalNumber = tipNumber + billNumber;
 
-            tipAmount.setText(String.format(getResources().getString(R.string.tip_format), tipNumber.toString()));
-            totalAmount.setText(String.format(getResources().getString(R.string.total_format), totalNumber.toString()));
+            tipAmount.setText(String.format(getResources().getString(R.string.tip_format), tipNumber));
+            totalAmount.setText(String.format(getResources().getString(R.string.total_format), totalNumber));
         } else {
             tipAmount.setText(getResources().getString(R.string.tip));
             totalAmount.setText(getResources().getString(R.string.total));

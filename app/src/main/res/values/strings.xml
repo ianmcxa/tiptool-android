@@ -6,8 +6,8 @@
     <string name="tip">Tip:</string>
     <string name="total">Total:</string>
 
-    <string name="tip_format">Tip: %1$s</string>
-    <string name="total_format">Total: %1$s</string>
+    <string name="tip_format">Tip: %.2f</string>
+    <string name="total_format">Total: %.2f</string>
 
     <string name="tip_factor">Tip Factor</string>
 </resources>
